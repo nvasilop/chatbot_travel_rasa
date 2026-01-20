@@ -1,0 +1,181 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: ask_destinations
+  examples: |
+    - suggest travel destinations
+    - give me travel ideas
+    - where should I travel
+    - recommend destinations
+    - I want to travel in Europe
+    - suggest a city to visit
+    - where can I go on vacation in Europe
+    - which is the best place in Europe
+    - best cities to visit 
+    - planning a trip
+    - vacation ideas
+    - holiday destinations
+    - where to go for holidays
+    - help me choose a travel destination
+    - suggest travel destinations
+    - travel destinations
+    - cities to visit
+    - recommend cities
+    - travel ideas
+
+- intent: ask_weather
+  examples: |
+    - weather in [Athens](city)
+    - what's the weather in [Athens](city)
+    - tell me the weather in [Rome](city)
+    - how is the weather in [Paris](city)
+    - temperature in [London](city)
+    - what is the weather like in [Barcelona](city)
+    - is it raining in [Berlin](city)
+    - show me the weather for [Madrid](city)
+    - weather forecast for [Lisbon](city)
+    - current weather in [Vienna](city)
+
+- intent: ask_events
+  examples: |
+    - any events in [Rome](city)
+    - events in [Rome](city)
+    - concerts in [Rome](city)
+    - shows in [Rome](city)
+    - what events are in [Rome](city)
+    - are there any events in [Rome](city)
+    - is there something happening in [Rome](city)
+    - live events in [Rome](city)
+    - things to do in [Rome](city)
+
+    - any events in [Paris](city)
+    - concerts in [Paris](city)
+    - shows in [Paris](city)
+    - events in [Paris](city)
+
+    - events in [Barcelona](city)
+    - concerts in [Barcelona](city)
+
+    - events in [Athens](city)
+    - concerts in [Athens](city)
+
+    - events in [London](city)
+
+- intent: ask_local_time
+  examples: |
+    - what time is it in [Athens](city)
+    - local time in [Paris](city)
+    - time now in [London](city)
+    - what is the time in [Rome](city)
+    - current time in [Barcelona](city)
+    - tell me the time in [Berlin](city)
+    - what's the local time in [Amsterdam](city)
+    - time in [Athens](city)
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+
+
+
+
+

@@ -1,0 +1,44 @@
+version: "3.1"
+
+rules:
+
+- rule: Say hello
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Respond to sad mood
+  steps:
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: respond to weather
+  steps:
+  - intent: ask_weather
+  - action: action_ask_weather
+
+- rule: respond to destinations
+  steps:
+  - intent: ask_destinations
+  - action: action_show_destinations
+
+- rule: show city events
+  steps:
+    - intent: ask_events
+    - action: action_events_city
+
+- rule: Ask local time
+  steps:
+    - intent: ask_local_time
+    - action: action_ask_local_time
+
