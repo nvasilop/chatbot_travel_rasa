@@ -86,7 +86,7 @@ class ActionEventsCity(Action):
             )
             return []
 
-        # ✅ City → Country mapping
+        #  City → Country mapping
         city_country = {
             "rome": "IT",
             "athens": "GR",
@@ -124,7 +124,7 @@ class ActionEventsCity(Action):
                 venue = event["_embedded"]["venues"][0]
                 venue_country = venue.get("country", {}).get("countryCode", "")
 
-                # ✅ filter wrong-country cities
+                #  filter wrong-country cities
                 if country_code and venue_country != country_code:
                     continue
 
