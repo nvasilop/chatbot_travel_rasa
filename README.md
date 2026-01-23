@@ -45,7 +45,7 @@ Users can check real-time weather for any city.
 **Example:**
 ```
 User: weather in Athens  
-Bot: The weather in Athens is 6°C with broken clouds.
+Bot: The weather in Athens is 12.74°C with few clouds.
 ```
 
 This scenario was more interesting because it involved:
