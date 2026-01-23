@@ -105,7 +105,7 @@ Why I picked it: Super simple to use, no authentication needed, and it just work
 
 ### Ticketmaster Discovery API
 What it does: Lists upcoming events by location
-Why I picked it: Good global coverage and relevant for travel planning. Who doesn't want to know what's happening in the city they're visiting?
+Why I picked it: Good global coverage and relevant for travel planning. Everyone wants to know what's happening in the city they're visiting.
 
 All APIs are accessed via REST requests using the Python `requests` library.
 
