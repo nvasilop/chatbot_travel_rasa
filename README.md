@@ -17,7 +17,7 @@ I chose to build a travel assistance chatbot - basically a digital travel compan
 
 ### Motivation
 
-Honestly, I've always found trip planning a bit tedious. You end up with like 10 browser tabs open - one for weather, one for events, another for time zones, etc. So the idea of having a chatbot that consolidates all this information in one conversational interface seemed both practical and interesting to build.
+Honestly, I've always found trip planning a bit difficult situation. You end up with like 10 browser tabs open - one for weather, one for events, another for time zones, etc. So the idea of having a chatbot that consolidates all this information in one conversational interface seemed both practical and interesting to build.
 From a technical perspective, the travel domain turned out to be a great choice because it let me work with multiple external APIs, handle different types of user intents, and experiment with both rule-based and machine learning approaches to dialog management. Plus, travel-related conversations feel natural and intuitive, which made testing the bot actually enjoyable.
 
 ---
