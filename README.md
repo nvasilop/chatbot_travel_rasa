@@ -137,7 +137,13 @@ After some trial and error (and reading through Rasa docs), I simplified my rule
 
 ---
 
-### Challenge 4: GitHub repository size
+### Challenge 4: Ticketmaster's Event Timing Weirdness
+
+Here's something I didn't expect: when you search for events in a city, Ticketmaster sometimes gives you events that already happened. Like, events from 2023 mixed in with stuff happening next week. I spent some time trying to figure out if I was doing something wrong with my API call, but nope - turns out it's just how their data works. Event organizers upload their stuff whenever, and Ticketmaster doesn't automatically clean up past events.
+Solution: 
+The chatbot displays the events returned by the API sorted by date and clearly labels each event with its date, allowing the user to distinguish between past and upcoming events. This limitation was documented as part of the external data source behavior.
+
+### Challenge 5: GitHub repository size
 
 The trained models Rasa generates are huge, and I initially pushed them to GitHub which made the repo unnecessarily bloated.
 Solution:
