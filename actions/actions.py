@@ -3,13 +3,10 @@ from datetime import datetime, timedelta
 from rasa_sdk.executor import CollectingDispatcher
 from typing import Any, Dict, List, Text
 import requests
-import os
-from dotenv import load_dotenv 
 
-load_dotenv() 
-
-OPENWEATHER_API_KEY = os.getenv("OPENWEATHER_API_KEY")
-TICKETMASTER_API_KEY = os.getenv("TICKETMASTER_API_KEY")
+# Insert your own API keys below before running the project
+OPENWEATHER_API_KEY = "YOUR_OPENWEATHER_API_KEY_HERE"
+TICKETMASTER_API_KEY = "YOUR_TICKETMASTER_API_KEY_HERE"
 
 class ActionShowDestinations(Action):
 
