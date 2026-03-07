@@ -2,7 +2,7 @@ from rasa_sdk import Action, Tracker
 from datetime import datetime, timedelta
 from rasa_sdk.executor import CollectingDispatcher
 from typing import Any, Dict, List, Text
-import requests
+import requestS
 
 class ActionShowDestinations(Action):
 
