@@ -42,7 +42,7 @@ class ActionAskWeather(Action):
             )
             return []
 
-        api_key = "OPENWEATHER_API_KEY"
+        api_key = OPENWEATHER_API_KEY
 
         url = (
             "https://api.openweathermap.org/data/2.5/weather"
@@ -106,7 +106,7 @@ class ActionEventsCity(Action):
 
         country_code = city_country.get(city.lower())
 
-        api_key = "TICKETMASTER_API_KEY"
+        api_key = TICKETMASTER_API_KEY
         url = "https://app.ticketmaster.com/discovery/v2/events.json"
 
         params = {
@@ -124,7 +124,7 @@ class ActionEventsCity(Action):
             # If API returns no events at all
             events = data.get("_embedded", {}).get("events", [])
 
-            message = f"🎉 Upcoming events in {city.title()}:\n"
+            message = f" Upcoming events in {city.title()}:\n"
             found = False
 
             for event in events:
@@ -186,7 +186,7 @@ class ActionAskLocalTime(Action):
             )
             return []
 
-        api_key = "LOCALTIME_API_KEY"
+        api_key = LOCALTIME_API_KEY
 
         url = (
             "https://api.openweathermap.org/data/2.5/weather"
