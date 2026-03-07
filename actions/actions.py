@@ -186,7 +186,7 @@ class ActionAskLocalTime(Action):
             )
             return []
 
-        api_key = LOCALTIME_API_KEY
+        api_key = OPENWEATHER_API_KEY
 
         url = (
             "https://api.openweathermap.org/data/2.5/weather"
