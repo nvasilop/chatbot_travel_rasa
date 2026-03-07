@@ -2,7 +2,13 @@ from rasa_sdk import Action, Tracker
 from datetime import datetime, timedelta
 from rasa_sdk.executor import CollectingDispatcher
 from typing import Any, Dict, List, Text
-import requestS
+import requests
+from dotenv import load_dotenv
+
+load_dotenv()
+
+OPENWEATHER_API_KEY = os.getenv("OPENWEATHER_API_KEY")
+TICKETMASTER_API_KEY = os.getenv("TICKETMASTER_API_KEY")
 
 class ActionShowDestinations(Action):
 
