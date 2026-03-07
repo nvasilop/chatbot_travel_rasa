@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
 from rasa_sdk.executor import CollectingDispatcher
 from typing import Any, Dict, List, Text
 import requests
-import os 
+import os
 from dotenv import load_dotenv
 
 load_dotenv()
