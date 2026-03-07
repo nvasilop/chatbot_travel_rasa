@@ -162,12 +162,11 @@ To run the chatbot locally, the following API keys are required:
 
 ### Configuration
 
-This project uses environment variables for API key configuration.
+Before running the chatbot, insert your own API keys in `actions/actions.py`.
 
-Before running the chatbot, set the following environment variables:
-
-- `OPENWEATHER_API_KEY`
-- `TICKETMASTER_API_KEY`
+Required API keys:
+- OpenWeather API key
+- Ticketmaster Discovery API key
 
 ---
 
