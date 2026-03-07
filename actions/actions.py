@@ -35,7 +35,7 @@ class ActionAskWeather(Action):
             )
             return []
 
-        api_key = "c49c0bd2e4cad5bfded2dd267fc28019"
+        api_key = "OPENWEATHER_API_KEY"
 
         url = (
             "https://api.openweathermap.org/data/2.5/weather"
@@ -99,7 +99,7 @@ class ActionEventsCity(Action):
 
         country_code = city_country.get(city.lower())
 
-        api_key = "GyOVkw2IzILfDhhOnh1hbwMI4neSEtLI"
+        api_key = "TICKETMASTER_API_KEY"
         url = "https://app.ticketmaster.com/discovery/v2/events.json"
 
         params = {
@@ -179,7 +179,7 @@ class ActionAskLocalTime(Action):
             )
             return []
 
-        api_key = "c49c0bd2e4cad5bfded2dd267fc28019"
+        api_key = "LOCALTIME_API_KEY"
 
         url = (
             "https://api.openweathermap.org/data/2.5/weather"
