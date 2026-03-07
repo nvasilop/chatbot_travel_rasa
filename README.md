@@ -1,7 +1,7 @@
 # chatbot_travel_rasa
 
 This project was developed as part of a university assignment on dialog systems. The goal was to build a task-oriented chatbot using Rasa Open Source that could actually be useful for travel planning through natural conversation.
-
+ 
 ---
 
 ## 1. Chatbot Domain and Motivation
