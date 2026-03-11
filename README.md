@@ -227,4 +227,4 @@ The sweet spot seems to be using rules for well-defined interactions and letting
 
 ## 9. Conclusion
 
-This project demonstrates a task-oriented chatbot that combines conversational AI with real-time travel information. By integrating weather, local time, events, and destination suggestions, it provides a practical and interactive travel assistance experience.
+This project successfully demonstrates a task-oriented chatbot for travel assistance using Rasa and real-world data integrations. It enhances the user experience by providing destination suggestions, weather updates, local time information, and event recommendations through natural conversation.
