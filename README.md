@@ -225,6 +225,6 @@ The sweet spot seems to be using rules for well-defined interactions and letting
 
 ---
 
-## 9. 📌 Conclusion
+## 9. Conclusion
 
 This project demonstrates a task-oriented chatbot that combines conversational AI with real-time travel information. By integrating weather, local time, events, and destination suggestions, it provides a practical and interactive travel assistance experience.
