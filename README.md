@@ -194,7 +194,7 @@ Bot: Upcoming events in Barcelona...
 
 ---
 
-## 7. Dialog Policy Experimentation (Optional – Bonus)
+## 7. Dialog Policy Experimentation 
 
 What I tried
 I stuck mostly with Rasa's default configuration but experimented with the balance between RulePolicy and TEDPolicy.
